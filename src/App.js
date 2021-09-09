@@ -1,8 +1,12 @@
+import React from 'react';
 import './App.css';
+import {Navbar} from './components'
 
 const App = () => {
     return (
-        <h2>Portfolio Project</h2>
+        <>
+            <Navbar />
+        </>
     )
 }
 
