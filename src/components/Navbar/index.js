@@ -33,7 +33,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
           <div className=" d-flex justify-content-end">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav mx-5">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#">
                 Home
