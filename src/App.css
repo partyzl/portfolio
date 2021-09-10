@@ -12,6 +12,8 @@ body {
     font-family: "Roboto Condensed";
 }
 
+/**************************** NAVBAR ***************************************/
+
 nav a.nav-link {
 
     cursor: pointer !important;
@@ -46,4 +48,14 @@ nav ul li {
 .page-logo{
     height: 30px;
     width: 30px;
+}
+
+/**************************** HEADER ***************************************/
+
+.header-wrapper {
+    position: relative;
+    background-image: url(background-header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 }
