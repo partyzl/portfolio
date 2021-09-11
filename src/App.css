@@ -73,6 +73,7 @@ nav ul li {
     background-size: cover;
     background-position: center;
     height: 90vh;
+    z-index: 2 !important;
 }
 
 
