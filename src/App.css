@@ -2,7 +2,7 @@
 
 :root {
     --primary-black: #000;
-    --primary-grey: grey;
+    --primary-orange: #f9ab00;
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
@@ -15,6 +15,9 @@ body {
 /**************************** NAVBAR ***************************************/
 nav{
     z-index: 2;
+    /* position: fixed !important;
+    top: 0 !important;
+    width: 100% !important; */
 }
 nav a.nav-link {
 
@@ -29,14 +32,13 @@ nav ul li {
     margin-left: 2.75rem;
     margin-right: 0.75rem;
     color: var(--primary-black) !important;
-    border-top: 3px solid var(--primary-dark) !important;
 }
 .navbar-brand{
     padding: 0 !important
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-    border-bottom: 3px solid var(--primary-grey);
+    border-bottom: 2px solid var(--primary-orange);
     transition: 0.3s;
     transform: scale(1.3);
     padding: 0px 100px 0px 100px;
@@ -44,7 +46,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a:hover {
-    border-bottom: 3px solid var(--primary-grey);
+    border-bottom: 2px solid var(--primary-orange);
 }
 
 .page-logo{
@@ -88,14 +90,23 @@ nav ul li {
 
 /**************************** HEADER MAIN BUTTON  ***************************************/
 .btn-main-offer{
-    border: 1px solid var(--primary-red);
+    border: 1px solid var(--primary-orange);
     text-transform: uppercase;
-    border-radius: 0;
-    padding: 10px 12px 12px 12px;
+    border-radius: 100px;
+    padding: 10px 10px 10px 10px;
     color: white;
     margin-top: 2rem;
     z-index: 2;
-    cursor:pointer
+    cursor:pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.btn-main-offer:hover{
+    font-weight:900;
+    color: var(--primary-orange);
+    background-color: white;
+    border: 1px solid white;
 }
 
 /**************************** PARTICLES  ***************************************/
