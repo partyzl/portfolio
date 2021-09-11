@@ -33,8 +33,14 @@ nav ul li {
     margin-right: 0.75rem;
     color: var(--primary-black) !important;
 }
+
+@media(max-width: 450px){
+    .navbar-nav > li > a {
+        margin-left: 0rem !important;
+    }
+}
 .navbar-brand{
-    padding: 0 !important
+    padding: 0 !important;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
@@ -52,6 +58,10 @@ nav ul li {
 .page-logo{
     height: 30px;
     width: 30px;
+}
+
+.navbar {
+    position: sticky !important;
 }
 
 /**************************** HEADER ***************************************/
@@ -107,6 +117,7 @@ nav ul li {
     color: var(--primary-orange);
     background-color: white;
     border: 1px solid white;
+    transition: 0.2s ease-in-out;
 }
 
 /**************************** PARTICLES  ***************************************/

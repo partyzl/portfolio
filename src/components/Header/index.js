@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-
+import {default as MainTitle} from './MainTitle';
 
 const Header = () => {
     // Create Ref element.
@@ -29,11 +29,14 @@ const Header = () => {
             typed.destroy();
         };
     }, []);
+
     return(
         <>
         <div className="header-wrapper">
             {" "}
-            <h1>Parth Patel</h1>{" "}
+            <div className="main-title">
+                <MainTitle/>
+            </div>
             <div>
                 {/* Element to display typing strings */}
                 <span ref={el}></span>
