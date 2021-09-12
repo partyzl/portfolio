@@ -39,16 +39,6 @@ const Header = () => {
                 <span ref={el}></span>
             </div>
             <a href="#" className="btn-main-offer">Contact Me</a>
-            <div className="icon-wrapper">
-                <div className="item-1 item"></div>
-                <div className="item-2 item"></div>
-                <div className="item-3 item"></div>
-                <div className="item-4 item"></div>
-                <div className="item-5 item"></div>
-                <div className="item-6 item"></div>
-                <div className="item-7 item"></div>
-                <div className="item-8 item"></div>
-            </div>
         </div>
         </>
     )
