@@ -5,13 +5,13 @@ const Portfolio = () => {
     <>
       <div className="portfolio-body" id="portfolio">
         <div className="container section">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Pipeline</h5>
-                  <p class="card-text">
+          <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="col">
+              <div className="card">
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Pipeline</h5>
+                  <p className="card-text">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Quos dignissimos autem dicta earum laboriosam molestiae
                     temporibus officiis corrupti aliquam similique!
@@ -19,12 +19,12 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">The Impression of Persistence</h5>
-                  <p class="card-text">
+            <div className="col">
+              <div className="card">
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">The Impression of Persistence</h5>
+                  <p className="card-text">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Aperiam maiores itaque corporis, veniam aspernatur ullam
                     reprehenderit consequuntur quo facere blanditiis.
@@ -32,12 +32,12 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">...Coming Soon</h5>
-                  <p class="card-text">
+            <div className="col">
+              <div className="card">
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">...Coming Soon</h5>
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Error commodi explicabo inventore vel voluptatibus ratione
                     qui mollitia consequatur ullam veniam.
@@ -45,12 +45,12 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">...Coming Soon</h5>
-                  <p class="card-text">
+            <div className="col">
+              <div className="card">
+                <img src="..." className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">...Coming Soon</h5>
+                  <p className="card-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aperiam enim sequi illum error ipsa? Ipsam atque tenetur
                     recusandae fugiat dicta.
