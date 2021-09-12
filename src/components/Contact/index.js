@@ -31,12 +31,12 @@ const Contact = () => {
         <div className="container form-container">
           <div className="col-lg-6 icon-boundary">
             <a target="_blank" href="https://github.com/partyzl">
-              <img className="icon icon-1" src="git.svg" alt="GitHub Logo" />
+              <img className="icon icon-1" src="../../images/git.svg" alt="GitHub Logo" />
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/parthpatel4496/">
               <img
                 className="icon icon-2"
-                src="linkedin.svg"
+                src="../../images/linkedin.svg"
                 alt="Linkedin Logo"
               />
             </a>
