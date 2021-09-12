@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className=" d-flex justify-content-end">
           <ul className="navbar-nav mx-5">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#intro">
                 Home
               </a>
             </li>
@@ -57,12 +57,12 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#experience">
                 Experience
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact-me">
                 Contact Me
               </a>
             </li>
