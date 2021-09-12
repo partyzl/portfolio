@@ -224,3 +224,39 @@ p.card-text {
     background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  
 }
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-boundary{
+    border-left: 2px solid var(--primary-orange);
+}
+
+input, textarea {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 45px;
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+@media(max-width: 994px){
+    input, textarea {
+        width: 80vw !important;
+    }
+}
+
+@media(max-width: 450px){
+    input, textarea {
+        width: 80vw !important;
+    }
+}

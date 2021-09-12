@@ -38,7 +38,7 @@ const Header = () => {
                 {/* Element to display typing strings */}
                 <span ref={el}></span>
             </div>
-            <a href="#" className="btn-main-offer">Contact Me</a>
+            <a href="#contact-me" className="btn-main-offer">Contact Me</a>
         </div>
         </>
     )
