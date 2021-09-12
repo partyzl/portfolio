@@ -300,12 +300,16 @@ h2{
     margin-top: 5px !important;
 }
 
-.icon-1, .icon-2{
+svg.icon-1, svg.icon-2{
     padding: 5px 10px 5px 10px;
 
 }
 
-.icon-1:hover, .icon-2:hover{
+svg.icon-1{
+    margin-top: 75px;
+}
+
+svg.icon-1:hover, svg.icon-2:hover{
     transition: 0.9s;
     transform: rotateY(360deg);
 }
