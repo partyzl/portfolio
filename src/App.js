@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Navbar, Header } from "./components";
+import { Navbar, Header, About } from "./components";
 import Particles from "react-particles-js";
 
 const App = () => {
@@ -77,6 +77,7 @@ const App = () => {
       />
       <Navbar />
       <Header />
+      <About />
     </>
   );
 };
