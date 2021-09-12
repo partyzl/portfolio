@@ -11,11 +11,19 @@
 
 body {
     font-family: "Roboto Condensed";
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+}   
+
+section {
+    scroll-snap-align: start;
 }
+
 
 /**************************** NAVBAR ***************************************/
 nav{
     z-index: 2;
+    border-bottom: 1px solid white;
     /* position: fixed !important;
     top: 0 !important;
     width: 100% !important; */
@@ -47,10 +55,10 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-    border-bottom: 2px solid var(--primary-orange);
+    border-bottom: 2px solid var(--primary-orange) !important;
     transition: 0.3s;
-    transform: scale(1.3);
-    padding: 0px 100px 0px 100px;
+    transform: scale(1.3) !important;
+    padding: 0px 10px 0px 10px !important;
 
 }
 
@@ -152,14 +160,18 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #bdc3c7, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #bdc3c7, #2c3e50 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
  h1 {
     color: var(--primary-orange) !important;
+}
+
+p {
+    color: white;
 }
 
 /**************************** PORTFOLIO ***************************************/
@@ -170,11 +182,16 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #2c3e50 #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #2c3e50, #bdc3c7 ); 
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
 }
 
 .card {
     border: 2px solid var(--primary-orange) !important;
+}
+
+p.card-text {
+    color: var(--primary-black) !important;
 }
