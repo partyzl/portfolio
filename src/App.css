@@ -138,6 +138,5 @@ nav ul li {
 }
 
 .item-1{
-    background: url(./images/js.svg) no-repeat;
-    
+    background: url(./images/js.svg) no;
 }
