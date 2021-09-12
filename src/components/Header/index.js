@@ -32,7 +32,7 @@ const Header = () => {
 
     return(
         <>
-        <div className="header-wrapper">
+        <div className="header-wrapper section">
                 <MainTitle/>
             <div>
                 {/* Element to display typing strings */}
