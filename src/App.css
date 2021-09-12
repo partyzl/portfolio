@@ -269,3 +269,29 @@ h2{
         margin-left: 15px;
     }
 }
+
+.form-btn{
+    border: 1px solid var(--primary-orange);
+    text-transform: uppercase;
+    border-radius: 100px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    margin-top: 1.2rem;
+    cursor:pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+    background:none;
+}
+
+.form-btn:hover{
+    font-weight:900;
+    color: var(--primary-orange);
+    background-color: white;
+    border: 1px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+.form-msg{
+    color: white;
+    margin-top: 5px !important;
+}
