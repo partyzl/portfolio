@@ -3,7 +3,7 @@ import Vivus from "vivus";
 
 const MainTitle = () => {
     useEffect(()=> {
-        new Vivus('main-title', {duration: 350, file: 'svg/main-title_animated.svg'})
+        new Vivus('main-title', {duration: 350, file: 'title.svg'})
     }, [])
     return(
         <>
