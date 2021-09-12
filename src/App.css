@@ -6,6 +6,7 @@
     --primary-dark: rgba(255, 255, 255, 0);
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
+    --primary-grey: #a09c9c;
 }
 
 body {
@@ -141,4 +142,39 @@ nav ul li {
 
 .item-1{
     background: url(./images/js.svg) no;
+}
+
+/**************************** ABOUT ***************************************/
+.about-body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #bdc3c7, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ h1 {
+    color: var(--primary-orange) !important;
+}
+
+/**************************** PORTFOLIO ***************************************/
+.portfolio-body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50 #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7 ); 
+}
+
+.card {
+    border: 2px solid var(--primary-orange) !important;
 }
