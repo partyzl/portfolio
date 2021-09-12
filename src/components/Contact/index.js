@@ -1,19 +1,20 @@
 import React, {useState} from "react";
+import emailjs from "emailjs";
 
 const Contact = () => {
 
     const [message, setMessage] = useState(false);
 
-    const emptyForm = (e) => {
-        e.target.email.value="";
-        e.target.subject.value="";
-        e.target.msg.value="";
-    }
-
     const handleSubmit = (e) => {
         e.preventDefault();
+        emailjs.sendForm('gmail', 'template_z556z8n', e.target, 'user_ToJwfegMzrYofM5ihWgMX')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
         setMessage(true);
-        emptyForm();
+        e.target.reset();
     }
 
     return(
@@ -24,10 +25,11 @@ const Contact = () => {
                     <div className="col-lg-6 form-boundary">
                         <h2>Contact Me</h2>
                             <form onSubmit={handleSubmit}>
+                                <input className="col-md-8" type="text" name="name" placeholder="Your name" />
                                 <input className="col-md-10" type="email" name="email" required placeholder="Your Email Here"/>
                                 <input className="col-md-8" type="text" name="subject" placeholder="Subject" />
                                 <textarea className="col-md-10" type="text" name="msg" required placeholder= "How can I help you?" rows="5"/>
-                                <button type="submit"className="form-btn">Submit</button><br/>
+                                <input type="submit"className="form-btn" value="Send"></input><br/>
                                 {message && <span className="form-msg">Thank you, I will reply ASAP!</span>}
                             </form>
                     </div>
