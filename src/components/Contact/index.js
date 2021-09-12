@@ -25,7 +25,7 @@ const Contact = () => {
                     <div className="col-lg-6 form-boundary">
                         <h2>Contact Me</h2>
                             <form onSubmit={handleSubmit}>
-                                <input className="col-md-8" type="text" name="name" placeholder="Your name" />
+                                <input className="col-md-8" type="text" name="name" required placeholder="Your name" />
                                 <input className="col-md-10" type="email" name="email" required placeholder="Your Email Here"/>
                                 <input className="col-md-8" type="text" name="subject" placeholder="Subject" />
                                 <textarea className="col-md-10" type="text" name="msg" required placeholder= "How can I help you?" rows="5"/>
