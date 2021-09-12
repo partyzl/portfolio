@@ -127,3 +127,16 @@ nav ul li {
     width: 100vw;
     z-index: 1;
 }
+
+/**************************** ICONS  ***************************************/
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    padding: 0.7rem;
+    overflow: hidden;
+}
+
+.item-1{
+    background: url(images/js.svg);
+}
