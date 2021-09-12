@@ -7,7 +7,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('gmail', 'portfolio_template', e.target, 'user_ToJwfegMzrYofM5ihWgMX')
+        emailjs.sendForm('service_gfg2n4i', 'portfolio_template', e.target, 'user_ToJwfegMzrYofM5ihWgMX')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
