@@ -246,17 +246,26 @@ h2{
     text-transform: uppercase;
     padding-bottom: 10px;
     text-align: left;
-    padding-left: 45px;
+    margin-left: 45px;
 }
 
 @media(max-width: 994px){
     input, textarea {
         width: 80vw !important;
+        margin-left: 20px;
     }
+    h2{
+        margin-left: 20px !important;
+    }
+
 }
 
 @media(max-width: 450px){
     input, textarea {
         width: 80vw !important;
+        margin-left: 15px;
+    }
+    h2{
+        margin-left: 15px;
     }
 }
