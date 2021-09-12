@@ -9,4 +9,4 @@ npm i
 ```
 npm run build
 ```
-- The site is also deployed on Netlify on the [this link](patel-parth.netlify.app), but has a bug where netlify doesn't display the title animation.
+- The site is also deployed on Netlify on the [this link](https://patel-parth.netlify.app), but has a bug where netlify doesn't display the title animation.
