@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Navbar, Header, About, Portfolio } from "./components";
+import { Navbar, Header, About, Portfolio, Experience, Contact } from "./components";
 import Particles from "react-particles-js";
 
 const App = () => {
@@ -80,6 +80,8 @@ const App = () => {
         <Header />
         <About />
         <Portfolio />
+        <Experience />
+        <Contact/>
       </div>
     </>
   );
