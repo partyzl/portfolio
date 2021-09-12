@@ -31,7 +31,9 @@ nav ul li {
 .navbar-nav > li > a {
     margin-left: 2.75rem;
     margin-right: 0.75rem;
-    color: var(--primary-black) !important;
+    color: white !important;
+    border-bottom: 2px solid rgb(33, 33, 33);
+    align-self: flex-end !important;
 }
 
 @media(max-width: 450px){
