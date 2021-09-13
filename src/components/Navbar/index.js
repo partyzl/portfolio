@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a role="logo" className="navbar-brand" href="#">
           {
             //   <svg
             //   xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
           <div className=" d-flex justify-content-end">
-          <ul className="navbar-nav mx-5">
+          <ul role="navList" className="navbar-nav mx-5">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#intro">
                 Home
