@@ -176,11 +176,20 @@ p {
     color: white;
 }
 
-.logo-wrapper > img {
-    flex-direction: row;
-    height: 30px;
-    padding: 5px;
+/**************************** CAROUSEL ***************************************/
+.logo-wrapper{
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 100px;
+    margin-top: 50px;
+    border-top: 2px solid var(--primary-orange);
 }
+
+.logo-wrapper > img {
+    height: 45px;
+    padding: 8px;
+}
+
 
 /**************************** PORTFOLIO ***************************************/
 .portfolio-body{
@@ -195,9 +204,68 @@ p {
     background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  
 }
+.card{
+    position: relative !important;
+}
+.card-1 {
+    border-top: 3px solid var(--primary-orange);
+    border-left: 3px solid var(--primary-orange);
+    display: inline-block;
+    vertical-align: top;
+}
 
-.card {
-    border: 2px solid var(--primary-orange) !important;
+.card-1:hover,
+.card-3:hover{
+    justify-content: center !important;
+    align-items: center !important;
+    width: 1120px;
+    height: 500px;
+    z-index: 2;
+    border: 5px solid var(--primary-orange);
+    border-top: 5px solid var(--primary-orange) !important;
+    border-left: 5px solid var(--primary-orange) !important;
+    width: 70vw;
+    margin-left: 42%;
+}
+
+.card-2 {
+    border-top: 3px solid var(--primary-orange);
+    border-right: 3px solid var(--primary-orange);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-2:hover,
+.card-4:hover{
+    justify-content: center !important;
+    align-items: center !important;
+    width: 1120px;
+    height: 500px;
+    z-index: 2;
+    border: 5px solid var(--primary-orange);
+    border-bottom: 5px solid var(--primary-orange) !important;
+    border-left: 5px solid var(--primary-orange) !important;
+    width: 70vw;
+    margin-left: -150%;
+}
+
+.card-3 {
+    border-bottom: 3px solid var(--primary-orange);
+    border-left: 3px solid var(--primary-orange);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-4 {
+    border-bottom: 3px solid var(--primary-orange);
+    border-right: 3px solid var(--primary-orange);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card:hover > img {
+    height:400px;
+    width:800px;
 }
 
 p.card-text {
