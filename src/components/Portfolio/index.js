@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="container section">
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">
-              <div className="card">
+              <div className="card card-1">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Pipeline</h5>
@@ -20,20 +20,20 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card card-2">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">The Impression of Persistence</h5>
                   <p className="card-text">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Aperiam maiores itaque corporis, veniam aspernatur ullam
-                    reprehenderit consequuntur quo facere blanditiis.
+                    reprehenderit consequuntur quo facere.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card card-3">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">...Coming Soon</h5>
@@ -46,7 +46,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className="card card-4">
                 <img src="..." className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">...Coming Soon</h5>
