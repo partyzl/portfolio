@@ -176,6 +176,12 @@ p {
     color: white;
 }
 
+.logo-wrapper > img {
+    flex-direction: row;
+    height: 30px;
+    padding: 5px;
+}
+
 /**************************** PORTFOLIO ***************************************/
 .portfolio-body{
     text-align: center;

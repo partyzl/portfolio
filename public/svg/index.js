@@ -1,5 +1,4 @@
 import React from "react";
-import Carousel from "./carousel";
 
 const About = () => {
   return (
@@ -14,7 +13,6 @@ const About = () => {
                 facere facilis aliquam, cumque quae placeat? Sunt, nisi dolorum
                 molestiae similique corrupti inventore magnam unde?
                 </p>
-              <Carousel/>
           </div>
       </div>
     </>
