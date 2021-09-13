@@ -8,6 +8,7 @@ const MainTitle = () => {
     return(
         <>
         <div id="main-title">
+            <h1 class="name-title">Parth Patel</h1>
         </div>
         </>
     )
