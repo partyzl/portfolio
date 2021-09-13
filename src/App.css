@@ -220,6 +220,8 @@ p {
     height: 500px;
     z-index: 2;
     border: 3px solid var(--primary-orange);
+    width: 80vw;
+    margin-left: -50%;
 }
 
 .card-2 {
@@ -235,7 +237,8 @@ p {
     height: 500px;
     z-index: 2;
     border: 3px solid var(--primary-orange);
-    margin-left: -570px;
+    width: 80vw;
+    margin-left: -150%;
 }
 
 .card-3 {
