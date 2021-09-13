@@ -8,7 +8,7 @@ const Portfolio = () => {
           <div className="row row-cols-1 row-cols-md-2 g-4">
             <div className="col">
               <div className="card card-1">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src="images/pipeline.png" className="card-img-top card-img-1" alt="Pipeline Journal" />
                 <div className="card-body">
                   <h5 className="card-title">Pipeline</h5>
                   <p className="card-text">
@@ -21,7 +21,7 @@ const Portfolio = () => {
             </div>
             <div className="col">
               <div className="card card-2">
-                <img src="..." className="card-img-top" alt="..." />
+                <img src="images/impression.png" className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">The Impression of Persistence</h5>
                   <p className="card-text">
