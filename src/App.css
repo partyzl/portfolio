@@ -86,7 +86,9 @@ nav ul li {
     height: 90vh;
 }
 
-
+#main-title{
+    height:60px
+}
 /**************************** TYPED_TEXT  ***************************************/
 .header-wrapper {
     text-align: center;
@@ -317,6 +319,7 @@ svg.icon-1:hover, svg.icon-2:hover, svg.icon-3:hover{
 .icon-boundary{
     margin-right: 5px;
 }
+
 /* 
 image.icon{
     margin: auto;
