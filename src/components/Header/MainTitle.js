@@ -7,7 +7,9 @@ const MainTitle = () => {
     }, [])
     return(
         <>
-        <div id="main-title"></div>
+        <div id="main-title">{Vivus ? Vivus :
+            <h1>Parth Patel</h1>}
+        </div>
         </>
     )
 
